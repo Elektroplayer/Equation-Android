@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">Equation</string>
+    <string name="enter">Введите значения</string>
+    <string name="dont_tap">Не жми!</string>
+</resources>
