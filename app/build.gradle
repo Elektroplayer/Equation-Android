@@ -5,7 +5,7 @@ plugins {
 android {
     signingConfigs {
         release {
-        storeFile file('/home/vitaly/my.jks')
+        storeFile file('/home/electro/my.jks')
             storePassword 'star9999'
             keyAlias 'key0'
             keyPassword 'star9999'

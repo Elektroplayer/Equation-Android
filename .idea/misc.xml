@@ -9,10 +9,11 @@
         <entry key="app/src/main/res/layout/fragment_gallery.xml" value="0.1953125" />
         <entry key="app/src/main/res/layout/fragment_home.xml" value="0.1953125" />
         <entry key="app/src/main/res/layout/fragment_slideshow.xml" value="0.1953125" />
+        <entry key="app/src/main/res/menu/activity_main_drawer.xml" value="0.1953125" />
       </map>
     </option>
   </component>
-  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" project-jdk-name="1.8" project-jdk-type="JavaSDK">
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="11" project-jdk-type="JavaSDK">
     <output url="file://$PROJECT_DIR$/build/classes" />
   </component>
   <component name="ProjectType">

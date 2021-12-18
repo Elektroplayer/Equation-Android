@@ -218,14 +218,14 @@ public class HomeFragment extends Fragment {
 
             if(-c < 0) return out + nf.format(-c) +" < 0 => Корней нет<br><br><b>Ответ: </b>Корней нет";
 
-            out += letter+ " = " + nf.format(Math.sqrt(-c)) + "<br>";
+            out += letter+ " = ±" + nf.format(Math.sqrt(-c)) + "<br>";
         } else if(a == -1) {
             out +=  "-"+letter+"² = " + nf.format(-c)+"<br>" +
                     letter+"² = " + nf.format(c) + "<br>";
 
             if(c < 0) return out + nf.format(c) +" < 0 => Корней нет<br><br><b>Ответ: </b>Корней нет";
 
-            out += letter+ " = " + nf.format(Math.sqrt(c)) + "<br>";
+            out += letter+ " = ± " + nf.format(Math.sqrt(c)) + "<br>";
         } else {
             out +=  nf.format(a) + letter+"² = " + nf.format(-c)+"<br>"+
                     letter+"² = " + formatNum(-c)+ "/" + formatNum(a) + "<br>" +
@@ -233,10 +233,10 @@ public class HomeFragment extends Fragment {
 
             if(-c/a < 0) return out + nf.format(-c/a) +" < 0 => Корней нет<br><br><b>Ответ: </b>Корней нет";
 
-            out += letter+ " = " + nf.format(Math.sqrt(-c/a)) + "<br>";
+            out += letter+ " = ± " + nf.format(Math.sqrt(-c/a)) + "<br>";
         }
 
-        out+= "<br><b>Ответ:</b> " + nf.format(Math.sqrt(-c/a));
+        out+= "<br><b>Ответ:</b> ±" + nf.format(Math.sqrt(-c/a));
 
         return out;
     }
