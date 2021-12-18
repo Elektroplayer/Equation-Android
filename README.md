@@ -14,4 +14,4 @@
 
 Приложение доступно только для телефонов на Android пятой версии и выше.
 
-Чтобы скачать последнюю версию, нажмите [сюда](https://cdn.discordapp.com/attachments/718825926321897504/904642800396697630/app-release.apk).
+Чтобы скачать последнюю версию, нажмите [сюда](https://github.com/Elektroplayer/Equation-Android/releases).
